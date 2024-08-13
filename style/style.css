@@ -18,7 +18,7 @@
     max-width: 1536px;
     /* height: 700px; */
     border: 1px solid black;
-    background-color: lightcoral;
+    background-image: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
 }
 
 .display {
@@ -26,12 +26,12 @@
 }
 
 .nav-bar {
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 90px;
+    margin-top: 65px;
+    
 }
 
 .brand-name {
@@ -45,7 +45,9 @@
 .list-container {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
+    
     align-items: center;
+    justify-content: space-evenly;
     color: rgba(255, 255, 255, 1);
     gap: 40px;
 }
@@ -56,7 +58,7 @@
     font-weight: 400;
     font-size: 1rem;
     text-align: left;
-    padding: 12px;
+    padding: 12px 4px;
 }
 
 .Home {
@@ -69,7 +71,62 @@
 .nav-bar i {
     display: none;
 }
+.banner-container{
+    justify-content: space-around;
+    align-items: center;
+    margin: 95px auto;
+    
+}
+.banner-content {
+    max-width: 530px;
+    height: 440px;
+    border: 1px solid black;
 
-.banner-content
+}
 
-/* responsive design */
+.banner-title {
+    font-size: 4.9rem;
+    font-weight: 900;
+    color: rgba(255, 255, 255, 1);
+    font-family: "Inter", sans-serif;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.shape {
+    font-family: 'Miama', sans-serif;
+    font-weight: 400;
+    font-size: 5.2rem;
+}
+
+.banner-description {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    font-family: "Inter", sans-serif;
+    margin-bottom: 28px;
+}
+
+.join-button {
+    background-color: rgba(230, 83, 60, 1);
+    color: rgba(255, 255, 255, 1);
+    padding: 15px 45px;
+    border-radius: 42px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    font-family: "Inter", sans-serif;
+    font-size: 1.1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-right: 14px;
+}
+
+.Download-button {
+    font-family: "Inter", sans-serif;
+    border: 1px solid rgba(255, 255, 255, 1);
+    border-radius: 42px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+    padding: 16px 48px;
+    text-align: center;
+}
