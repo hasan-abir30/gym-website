@@ -138,6 +138,7 @@ body {
 main {
     background-color: black;
 }
+
 /* habit style */
 
 .habit {
@@ -206,12 +207,14 @@ main {
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
 }
-.run-container{
+
+.run-container {
     justify-content: center;
     align-items: center;
     gap: 165px;
-    padding: 41px 32px 40px 54px;
+    padding: 41px 25px 40px 40px;
 }
+
 .run-content {
     max-width: 443px;
 }
@@ -240,14 +243,155 @@ main {
     padding: 16px 70px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-.run-image{
-    max-width:366px ;
+
+.run-image img {
+    max-width: 366px;
     border: 1px solid rgba(0, 0, 0, 1);
     border-radius: 18px;
-    
 }
-.run-image img{
-    width: 100%;
-    
-    
+
+/* run section */
+.team-section {
+    /* max-width: 1220px;
+    margin: 0 auto; */
+    margin-top: 88px;
+}
+
+.team-header {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 58px;
+}
+
+.team-title {
+    font-size: 3rem;
+    font-weight: 900;
+    color: rgb(255, 255, 255);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    margin-bottom: 14px;
+}
+
+.team-description {
+    text-align: center;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* team section style */
+.image-section {
+    max-width: 1220px;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 400px;
+}
+
+.image {
+    max-width: 325px;
+    border-radius: 18px;
+}
+
+.team-image1 {
+    background-image: rgba(0, 0, 0, 0.2), url("../images/trainer1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team-image2 {
+    background-image: rgba(0, 0, 0, 0.2), url("../images/trainer2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team-image3 {
+    background-image: rgba(0, 0, 0, 0.2), url("../images/trainer3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team-image4 {
+    background-image: rgba(0, 0, 0, 0.2), url("../images/trainer4.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team-image5 {
+    background-image: rgba(0, 0, 0, 0.2), url("../images/trainer5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.team-image6 {
+    background-image: rgba(0, 0, 0, 0.2), url("../images/trainer6.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* footer part style */
+.footer-part {
+    max-width: 1536px;
+    height: 490px;
+    background-color: black;
+    border: 1px solid blue;
+}
+
+.footer-container {
+    /* width: 80%; */
+    max-width: 1220px;
+    margin: 0 auto;
+    margin-top: 66px;
+    margin-bottom: 70px;
+    justify-content: space-between;
+    align-items: center;
+    /* border-bottom: 2px solid rgba(255, 255, 255, 0.1); */
+}
+
+.footer-part1 {
+    max-width: 443px;
+    margin-right: 120px;
+}
+
+.footer-part1 h1 {
+    color: rgba(230, 83, 60, 1);
+    font-weight: 900;
+    font-size: 4.5rem;
+}
+
+.footer-part1 p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 0.8rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+hr {
+    color: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-part2 {
+    margin-right: 200px;
+}
+
+.footer-part2 h2,
+.footer-part3 h2 {
+    color: white;
+    margin-bottom: 40px;
+}
+
+.footer-part2 p,
+.footer-part3 p {
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+}
+
+.reserved {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 35px;
+
 }
