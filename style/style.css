@@ -252,6 +252,55 @@ main {
 
 /* run section */
 
+/* challenge part */
+.bmi-part{
+    width:40%;
+    margin:88px auto;
+    /* border: 1px solid brown; */
+    
+}
+.bmi-title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    margin-bottom: 14px;
+}
+.bmi-description{
+    color:rgba(255, 255, 255, 0.5) ;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.calculate-part{
+    width: 1536px;
+    background-color: rgb(68, 68, 68);
+    height: 400px;
+    /* border: 1px solid brown; */
+}
+.bmi-heading{
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+table,th,td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-collapse: collapse;
+    text-align: left;
+    padding:15px 100px 10px 18px;
+}
+table th{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+table td{
+    color:rgba(255, 255, 255, 0.2) ;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+
+
 /* team section style */
 
 .team-section {
