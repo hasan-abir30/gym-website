@@ -1,7 +1,8 @@
 @media screen and (max-width:576px) {
-    .nav-bar{
+    .nav-bar {
         width: 90%;
     }
+
     .list-item {
         display: none;
     }
@@ -10,80 +11,98 @@
         display: block;
         color: white;
     }
-    .banner-container{
+
+    .banner-container {
         flex-direction: column;
         gap: 45px;
     }
-    .banner-content{
-       margin-top: 50px;
-       
+
+    .banner-content {
+        margin-top: 50px;
+
     }
+
     .banner-title {
         font-size: 2.2rem;
         margin-bottom: 10px;
         width: 50%;
-        margin-left:20px;
+        margin-left: 20px;
     }
-    .banner-description{
-        margin-left:20px;
+
+    .banner-description {
+        margin-left: 20px;
         width: 50%;
     }
-    .shape{
+
+    .shape {
         font-size: 2.2rem;
     }
-    
-    .shared-button{
+
+    .shared-button {
         display: flex;
-        margin-left:20px;
+        margin-left: 20px;
     }
-    .join-button{
+
+    .join-button {
         padding: 15px 40px;
         font-size: 0.7rem;
     }
-    .Download-button{
+
+    .Download-button {
         padding: 15px 40px;
         font-size: 0.7rem;
     }
-    .button{
+
+    .button {
         flex-direction: row-reverse;
         gap: 10px;
         bottom: 150px;
         left: 12px;
     }
-    .icon{
+
+    .icon {
         display: block;
     }
-    .circle{
+
+    .circle {
         display: none;
     }
-    .text-button{
+
+    .text-button {
         top: 50px;
         right: 5px;
         /* padding: 10px 35px 25px 18px; */
     }
-    .text-button h2{
+
+    .text-button h2 {
         font-size: 1.8rem;
     }
-    .text-button p{
+
+    .text-button p {
         font-size: 0.7rem;
     }
+
     /* header part end here */
 
- /* habit part start */
-    .habit{
+    /* habit part start */
+    .habit {
         margin-top: 0px;
     }
+
     .habit-text {
         width: 80%;
     }
-    .habit-title{
+
+    .habit-title {
         font-size: 2rem;
         text-align: center;
     }
-    .habit-description{
+
+    .habit-description {
         text-align: center;
     }
-    .image-content{
+
+    .image-content {
         width: 80%;
         margin: 0 auto;
         flex-direction: column;
@@ -91,40 +110,100 @@
 
     /* habit part ends */
 
-    .run{
+    .run {
         width: 90%;
         height: 100%;
         margin: 0 auto;
         margin-top: 50px;
     }
-    .run-container{
+
+    .run-container {
         flex-direction: column;
         gap: 30px;
     }
+
     .run-content {
         max-width: 80%;
     }
-    .run-title{
+
+    .run-title {
         width: 80%;
         font-size: 2rem;
     }
-    .join-now{
+
+    .join-now {
         width: 100%;
         font-size: 1rem;
     }
-    .run-image{
+
+    .run-image {
         width: 80%;
     }
+
     .run-image img {
-         display: none;
+        display: none;
     }
-    .run-image .response-run{
+
+    .run-image .response-run {
         display: block;
         width: 100%;
         max-height: 170px;
     }
 
     /* Responsive run parts end */
+    .bmi-part {
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    .bmi-title {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .input-challenge {
+        height: 100%;
+        flex-direction: column;
+        gap: 42px;
+    }
+
+    .calculate-part {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .bmi-heading {
+        font-size: 1rem;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    table th {
+        font-size: 1rem;
+    }
+
+    table,
+    th,
+    td {
+        padding: 15px 27px 10px 5px;
+    }
+
+    .input-section {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .input-heading {
+        font-size: 1rem;
+        margin-top: 40px;
+
+    }
+    .calculate-button{
+        margin-top: 30px;
+        margin-bottom: 40px;
+    }
 
 
 
@@ -137,8 +216,8 @@
 
 
 
-    
-    .footer-container{
+
+    .footer-container {
         flex-direction: column;
     }
 }

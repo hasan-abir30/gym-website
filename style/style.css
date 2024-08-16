@@ -16,7 +16,7 @@
 body {
     font-family: "Inter", sans-serif;
     background-color: black;
-    /* border: 1px solid blue; */
+    /* border: 1px solid red; */
 }
 
 /* shared display */
@@ -354,13 +354,16 @@ body {
 
 .input-challenge {
     max-width: 1536px;
+    border: 1px solid blue;
     background-color: rgb(68, 68, 68);
     justify-content: center;
-    /* align-items: center; */
     gap: 175px;
 
 }
-
+.calculate-part {
+    width: 33%;
+    margin-top: 55px;
+}
 .bmi-heading {
     color: white;
     font-size: 1.7rem;
@@ -393,7 +396,6 @@ table td {
 
 .input-section {
     width: 33%;
-    /* border: 1px solid brown; */
     margin-top: 55px;
     margin-bottom: 50px;
 }
@@ -412,11 +414,7 @@ table td {
     margin-bottom: 30px;
 }
 
-.calculate-part {
-    width: 33%;
-    margin-top: 55px;
 
-}
 
 .activity {
     margin-bottom: 35px;
@@ -436,7 +434,6 @@ input {
     color: rgba(255, 255, 255, 0.6);
     font-size: 1rem;
     font-weight: 400;
-    /* border: 1px solid ; */
 }
 
 .letter {
@@ -450,13 +447,22 @@ input {
 .same {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+select{
+    outline: none;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    background-color: rgb(68, 68, 68);
+    color: rgba(255, 255, 255, 0.2);
+    font-size: 1rem;
+    font-weight: 400;
+}
 
 .calculate-button {
     background-color: rgba(230, 83, 60, 1);
     font-size: 1rem;
     font-weight: 600;
     color: white;
-    padding: 16px 50px;
+    padding: 16px 45px;
     border-radius: 42px;
     border: none;
 }
