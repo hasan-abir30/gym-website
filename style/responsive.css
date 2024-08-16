@@ -1,5 +1,7 @@
 @media screen and (max-width:576px) {
-    
+    .nav-bar{
+        width: 90%;
+    }
     .list-item {
         display: none;
     }
@@ -12,6 +14,60 @@
         flex-direction: column;
         gap: 45px;
     }
+    .banner-content{
+       margin-top: 50px;
+       
+    }
+    .banner-title {
+        font-size: 2.2rem;
+        margin-bottom: 10px;
+        width: 50%;
+        margin-left:20px;
+    }
+    .banner-description{
+        margin-left:20px;
+        width: 50%;
+    }
+    .shape{
+        font-size: 2.2rem;
+    }
+    
+    .shared-button{
+        display: flex;
+        margin-left:20px;
+    }
+    .join-button{
+        padding: 15px 40px;
+        font-size: 0.7rem;
+    }
+    .Download-button{
+        padding: 15px 40px;
+        font-size: 0.7rem;
+    }
+    .button{
+        flex-direction: row-reverse;
+        bottom: 150px;
+        left: 12px;
+    }
+    .icon{
+        display: block;
+    }
+    .circle{
+        display: none;
+    }
+    .text-button{
+        top: 47px;
+        right: -5px;
+        /* padding: 10px 35px 25px 18px; */
+    }
+    .text-button h2{
+        font-size: 1.8rem;
+    }
+    .text-button p{
+        font-size: 0.7rem;
+    }
+    /* header part end here */
+    
     .footer-container{
         flex-direction: column;
     }
