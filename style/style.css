@@ -273,24 +273,24 @@ body {
 }
 
 /* habit style ends here */
+
 .run {
-    max-width: 1220px;
+    max-width: 80%;
     margin: 0 auto;
     margin-top: 100px;
-    /* height: 400px; */
     background-color: rgb(34, 34, 34);
     border-radius: 18px;
 }
 
 .run-container {
-    justify-content: center;
+    justify-content:center ;
     align-items: center;
-    gap: 165px;
-    padding: 41px 25px 40px 40px;
+    gap: 340px;
+    padding: 20px 0px;
 }
 
 .run-content {
-    max-width: 443px;
+    max-width: 30%;
 }
 
 .run-title {

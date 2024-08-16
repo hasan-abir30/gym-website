@@ -81,15 +81,56 @@
         text-align: left;
     }
     .habit-description{
-        text-align: justify;
+        text-align: center;
     }
     .image-content{
         width: 80%;
         margin: 0 auto;
         flex-direction: column;
-        border: 1px solid blue;
     }
     /* habit part ends */
+    .run{
+        width: 90%;
+        height: 100%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+    .run-container{
+        flex-direction: column;
+        gap: 30px;
+    }
+    .run-content {
+        max-width: 80%;
+        /* border: 1px solid salmon; */
+    }
+    .run-title{
+        width: 80%;
+        font-size: 2rem;
+    }
+    .join-now{
+        width: 100%;
+        font-size: 1rem;
+    }
+    .run-image{
+        width: 80%;
+    }
+    .run-image img {
+        width: 100%;
+        max-height: 170px;
+        display: none;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
     
     .footer-container{
         flex-direction: column;
