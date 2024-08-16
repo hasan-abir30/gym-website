@@ -78,7 +78,7 @@
     }
     .habit-title{
         font-size: 2rem;
-        text-align: left;
+        text-align: center;
     }
     .habit-description{
         text-align: center;
@@ -88,7 +88,9 @@
         margin: 0 auto;
         flex-direction: column;
     }
+
     /* habit part ends */
+
     .run{
         width: 90%;
         height: 100%;
@@ -101,7 +103,6 @@
     }
     .run-content {
         max-width: 80%;
-        /* border: 1px solid salmon; */
     }
     .run-title{
         width: 80%;
@@ -115,10 +116,15 @@
         width: 80%;
     }
     .run-image img {
+         display: none;
+    }
+    .run-image .response-run{
+        display: block;
         width: 100%;
         max-height: 170px;
-        display: none;
     }
+
+    /* Responsive run parts end */
 
 
 
