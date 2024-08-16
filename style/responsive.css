@@ -219,5 +219,28 @@
 
     .footer-container {
         flex-direction: column;
+        gap: 30px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .footer-part1{
+        max-width: 100%;
+        margin-right: 0px;
+    }
+    .footer-part2{
+        width: 100%;
+        margin-right: 0px;
+    }
+    .footer-part3{
+        width: 100%;
+    }
+    .reserved{
+        width: 80%;
+        margin: 0 auto;
+        text-align: left;
+        font-size: 1rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        
     }
 }
