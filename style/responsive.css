@@ -99,7 +99,7 @@
     }
 
     .habit-description {
-        text-align: center;
+        text-align: justify;
     }
 
     .image-content {
@@ -150,12 +150,14 @@
         max-height: 170px;
     }
 
-    /* Responsive run parts end */
+    /* Responsive challenge part */
+
     .bmi-part {
         width: 80%;
         margin: 0 auto;
         margin-top: 30px;
         margin-bottom: 30px;
+        text-align: center;
     }
 
     .bmi-title {
@@ -164,6 +166,7 @@
     }
 
     .input-challenge {
+        width: 100%;
         height: 100%;
         flex-direction: column;
         gap: 42px;
@@ -194,6 +197,21 @@
         width: 90%;
         margin: 0 auto;
     }
+     input{
+        max-width:170px;
+    }
+    select{
+        max-width: 170px;
+    }
+    .activity{
+        max-width: 368px;
+    }
+    .letter {
+        padding: 13px 70px 13px 12px;
+    } */
+    .grid-part{
+        gap: 5px;
+    }
 
     .input-heading {
         font-size: 1rem;
@@ -205,17 +223,26 @@
         margin-bottom: 40px;
     }
 
+/* team part */
 
+    .team-text{
+        width: 80%;
+        margin-top: 30px;
+    }
+    .team-heading{
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .image-container{
+        width: 90%;
+        height: 100%;
+        margin-bottom: 10px;
+    }
+    .about-trainer{
+        grid-template-columns: repeat(1,1fr);
+    }
 
-
-
-
-
-
-
-
-
-
+/* footer part */
 
     .footer-container {
         flex-direction: column;
@@ -228,19 +255,21 @@
         margin-right: 0px;
     }
     .footer-part2{
-        width: 100%;
+        max-width: 100%;
         margin-right: 0px;
     }
     .footer-part3{
-        width: 100%;
+        max-width: 100%;
+    }
+    hr {
+        border: 2px solid rgba(255, 255, 255, 0.1);
+        width: 90%;
+        margin: 0 auto;
     }
     .reserved{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
         text-align: left;
         font-size: 1rem;
-        margin-top: 20px;
-        margin-bottom: 20px;
-        
     }
 }
